@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head> İsteğe göre renginizi belirleyebilirsiniz.
+	<title>Dark/Light</title>
+	<style>
+		body {
+			background-color: white;
+			color: black;
+		}
+		
+		.dark-mode {
+			background-color: #333333;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+	
+	<button onclick="myFunction()">Dark/Light</button>
+
+	<script>
+		function myFunction() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+		}
+	</script>
+</body>
+</html>
